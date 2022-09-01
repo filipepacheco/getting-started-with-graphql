@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --transpile-only --no-notify --exit-child src/index.ts",
-    "generate": "ts-node --transpile-only src/schema.ts"
+    "generate": "ts-node --transpile-only src/schema.ts",
+    "prisma-init": "npx prisma migrate dev --name 'init'"
   },
   "repository": {
     "type": "git",
